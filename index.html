@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+  <meta name="theme-color" content="#0d1117" />
+  <title>Бесконечный сборщик</title>
+  <meta name="description" content="Собирай монеты, срезая траву — бесконечная аркадная игра на Сanvas." />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div id="app">
+    <canvas id="game-canvas"></canvas>
+    <div id="hud">
+      <div id="coin-display">
+        <span id="coin-icon">🪙</span>
+        <span id="coin-count">0</span>
+      </div>
+    </div>
+    <div id="speed-bar">
+      <div id="speed-fill-wrap"><div id="speed-fill"></div></div>
+      <span>SPD</span>
+    </div>
+    <div id="joystick-zone">
+      <div id="joystick-base">
+        <div id="joystick-knob"></div>
+      </div>
+    </div>
+  </div>
+  <script src="game.js"></script>
+</body>
+</html>
